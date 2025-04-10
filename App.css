@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  transition: all 0.5s ease;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Night Theme (default): pink -> gold */
+.night {
+  background-color: #1a1a2e;
+  color: gold;
+}
+
+.night h1 {
+  color: hotpink;
+}
+
+.night h2 {
+  color: pink;
+}
+
+.night .cta {
+  color: gold;
+}
+
+/* Light Theme: white -> red */
+.light {
+  background-color: white;
+  color: #333;
+}
+
+.light h1 {
+  color: red;
+}
+
+.light h2 {
+  color: #cc0000;
+}
+
+.light .cta {
+  color: red;
+}
+
+button {
+  background-color: #f72585;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b5179e;
+}
+
+i {
+  font-size: 40px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
